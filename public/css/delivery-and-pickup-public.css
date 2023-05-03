@@ -1,0 +1,65 @@
+.delivery-and-pickup-wrapper {
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+.delivery-and-pickup {
+    margin: 0 0 1rem 0;
+}
+
+.delivery-and-pickup-wrapper h3 {
+    color: #6b6c6c;
+    font-family: "Open Sans", Sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 0px;
+}
+
+.delivery-and-pickup-wrapper h4,
+.delivery-and-pickup-wrapper p label {
+    font-weight: 400;
+    padding-left: 3px;
+    margin: 0;
+    line-height: 2;
+    color: #6b6c6c;
+}
+
+.ui-datepicker-calendar {
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.delivery-and-pickup-take_away {
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery-and-pickup-delivery {
+    display: none;
+    flex-direction: column;
+}
+
+.delivery-and-pickup-take_away select,
+.delivery-and-pickup-delivery input {
+    width: 47.5%;
+}
+
+#boxes-jquery-datepicker {
+    font-size: 16px !important;
+    color: #6b6c6c;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textare {
+    border-style: solid;
+    border-width: 1px;
+}
+
+#delivery_and_pickup_location,
+#delivery-and-pickup-datepicker {
+    width: 100%;
+}
+
+#delivery_and_pickup_type_delivery {
+    margin-left: 20px;
+}
